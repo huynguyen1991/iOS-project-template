@@ -15,6 +15,9 @@
 		2A9222821F38797600A648E6 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9222811F38797600A648E6 /* ConfigurationManager.swift */; };
 		2ABEE6D41F38856A00531205 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABEE6D31F38828A00531205 /* Configuration.plist */; };
 		2ABEE6D61F3886D700531205 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABEE6D51F3886D700531205 /* RootRouter.swift */; };
+		2FA2B04124EB875400DCF47F /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2B03E24EB875400DCF47F /* Debug.xcconfig */; };
+		2FA2B04224EB875400DCF47F /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2B03F24EB875400DCF47F /* Release.xcconfig */; };
+		2FA2B04324EB875400DCF47F /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2B04024EB875400DCF47F /* Staging.xcconfig */; };
 		553FC23C214047CB001D9362 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FC23B214047CB001D9362 /* R.generated.swift */; };
 		C90395241FC622D2006F1DC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395231FC622D2006F1DC0 /* main.swift */; };
 		C90395261FC62399006F1DC0 /* TestsAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */; };
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2A1DD4DE1F389C2200712195 /* DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkHandler.swift; sourceTree = "<group>"; };
 		2A1DD4E01F389E2100712195 /* NotificationsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsHandler.swift; sourceTree = "<group>"; };
-		2A1E77331F384BFC006C84D4 /* {{cookiecutter.app_name}}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{cookiecutter.app_name}}.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1E77331F384BFC006C84D4 /* debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1E77361F384BFC006C84D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A1E773D1F384BFD006C84D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A1E77401F384BFD006C84D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		2A9222841F387B1D00A648E6 /* {{cookiecutter.app_name}}Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "{{cookiecutter.app_name}}Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		2ABEE6D31F38828A00531205 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		2ABEE6D51F3886D700531205 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		2FA2B03E24EB875400DCF47F /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		2FA2B03F24EB875400DCF47F /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		2FA2B04024EB875400DCF47F /* Staging.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		553FC23B214047CB001D9362 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		55F50BE321404BDD00FAC039 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		C90395231FC622D2006F1DC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -92,7 +98,7 @@
 		2A1E77341F384BFC006C84D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A1E77331F384BFC006C84D4 /* {{cookiecutter.app_name}}.app */,
+				2A1E77331F384BFC006C84D4 /* debug.app */,
 				2A1E77471F384BFD006C84D4 /* {{cookiecutter.app_name}}Tests.xctest */,
 			);
 			name = Products;
@@ -201,6 +207,9 @@
 			children = (
 				2ABEE6D31F38828A00531205 /* Configuration.plist */,
 				2A1E77421F384BFD006C84D4 /* Info.plist */,
+				2FA2B03E24EB875400DCF47F /* Debug.xcconfig */,
+				2FA2B03F24EB875400DCF47F /* Release.xcconfig */,
+				2FA2B04024EB875400DCF47F /* Staging.xcconfig */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -242,7 +251,7 @@
 			);
 			name = "{{cookiecutter.app_name}}";
 			productName = "{{cookiecutter.app_name}}";
-			productReference = 2A1E77331F384BFC006C84D4 /* {{cookiecutter.app_name}}.app */;
+			productReference = 2A1E77331F384BFC006C84D4 /* debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2A1E77461F384BFD006C84D4 /* {{cookiecutter.app_name}}Tests */ = {
@@ -309,7 +318,10 @@
 			files = (
 				2ABEE6D41F38856A00531205 /* Configuration.plist in Resources */,
 				FCB2C7CB1F57127800481080 /* Localizable.strings in Resources */,
+				2FA2B04224EB875400DCF47F /* Release.xcconfig in Resources */,
 				2A1E77411F384BFD006C84D4 /* LaunchScreen.storyboard in Resources */,
+				2FA2B04324EB875400DCF47F /* Staging.xcconfig in Resources */,
+				2FA2B04124EB875400DCF47F /* Debug.xcconfig in Resources */,
 				2A1E773E1F384BFD006C84D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +416,7 @@
 /* Begin XCBuildConfiguration section */
 		2A1E774E1F384BFD006C84D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B03E24EB875400DCF47F /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -464,6 +477,7 @@
 		};
 		2A1E774F1F384BFD006C84D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B03F24EB875400DCF47F /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -517,14 +531,15 @@
 		};
 		2A1E77511F384BFD006C84D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B03E24EB875400DCF47F /* Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON}";
 				INFOPLIST_FILE = "{{cookiecutter.app_name}}/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xfrontend -warn-long-expression-type-checking=500";
-				PRODUCT_BUNDLE_IDENTIFIER = your.bundle.id;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}";
+				PRODUCT_NAME = "$(APP_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -532,14 +547,15 @@
 		};
 		2A1E77521F384BFD006C84D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B03F24EB875400DCF47F /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON}";
 				INFOPLIST_FILE = "{{cookiecutter.app_name}}/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = your.bundle.id;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}";
+				PRODUCT_NAME = "$(APP_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -547,6 +563,7 @@
 		};
 		2A1E77541F384BFD006C84D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B03E24EB875400DCF47F /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -565,6 +582,7 @@
 		};
 		2A1E77551F384BFD006C84D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B03F24EB875400DCF47F /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +600,7 @@
 		};
 		2ABEE6CF1F387C5D00531205 /* Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B04024EB875400DCF47F /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -642,14 +661,15 @@
 		};
 		2ABEE6D01F387C5D00531205 /* Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B04024EB875400DCF47F /* Staging.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON}";
 				INFOPLIST_FILE = "{{cookiecutter.app_name}}/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = your.bundle.id;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}";
+				PRODUCT_NAME = "$(APP_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -657,6 +677,7 @@
 		};
 		2ABEE6D11F387C5D00531205 /* Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2B04024EB875400DCF47F /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

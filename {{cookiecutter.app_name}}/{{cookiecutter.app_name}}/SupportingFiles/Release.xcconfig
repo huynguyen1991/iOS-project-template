@@ -1,0 +1,15 @@
+//
+//  Release.xcconfig
+//  ProApp
+//
+//  Created by Huy Nguyễn on 3/9/20.
+//  Copyright © 2020 Huy Nguyễn. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+// https://www.appcoda.com/xcconfig-guide/
+
+APP_BUNDLE_ID = com.anh.anh.release
+APP_NAME = release
+APP_ICON = AppIconRelease
