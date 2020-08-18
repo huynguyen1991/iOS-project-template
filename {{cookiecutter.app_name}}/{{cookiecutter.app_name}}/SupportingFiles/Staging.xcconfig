@@ -10,6 +10,5 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 // https://www.appcoda.com/xcconfig-guide/
 
-APP_BUNDLE_ID = com.anh.anh.stg
-APP_NAME = staging
+APP_NAME = {{cookiecutter.app_name}} staging
 APP_ICON = AppIconDebug
