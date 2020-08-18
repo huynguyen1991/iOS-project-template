@@ -531,7 +531,6 @@
 		};
 		2A1E77511F384BFD006C84D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA2B03E24EB875400DCF47F /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON}";
 				INFOPLIST_FILE = "{{cookiecutter.app_name}}/SupportingFiles/Info.plist";
@@ -547,7 +546,6 @@
 		};
 		2A1E77521F384BFD006C84D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA2B03F24EB875400DCF47F /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON}";
 				INFOPLIST_FILE = "{{cookiecutter.app_name}}/SupportingFiles/Info.plist";
@@ -563,7 +561,6 @@
 		};
 		2A1E77541F384BFD006C84D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA2B03E24EB875400DCF47F /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,7 +579,6 @@
 		};
 		2A1E77551F384BFD006C84D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA2B03F24EB875400DCF47F /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -661,7 +657,6 @@
 		};
 		2ABEE6D01F387C5D00531205 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA2B04024EB875400DCF47F /* Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON}";
 				INFOPLIST_FILE = "{{cookiecutter.app_name}}/SupportingFiles/Info.plist";
@@ -677,7 +672,6 @@
 		};
 		2ABEE6D11F387C5D00531205 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA2B04024EB875400DCF47F /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
