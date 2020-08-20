@@ -601,7 +601,7 @@
 			};
 			name = Release;
 		};
-		2ABEE6CF1F387C5D00531205 /* Staging */ = {
+		2FEC98BF24EE829200D5F111 /* Staging */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FA2B04024EB875400DCF47F /* Staging.xcconfig */;
 			buildSettings = {
@@ -635,17 +635,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -653,16 +647,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Staging;
 		};
-		2ABEE6D01F387C5D00531205 /* Staging */ = {
+		2FEC98C024EE829200D5F111 /* Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "${APP_ICON}";
@@ -680,7 +673,7 @@
 			};
 			name = Staging;
 		};
-		2ABEE6D11F387C5D00531205 /* Staging */ = {
+		2FEC98C124EE829200D5F111 /* Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -691,7 +684,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.app.{{cookiecutter.app_name}}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "{{cookiecutter.app_name}}Tests/{{cookiecutter.app_name}}Tests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{cookiecutter.app_name}}.app/{{cookiecutter.app_name}}";
@@ -705,8 +697,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A1E774E1F384BFD006C84D4 /* Debug */,
-				2ABEE6CF1F387C5D00531205 /* Staging */,
 				2A1E774F1F384BFD006C84D4 /* Release */,
+				2FEC98BF24EE829200D5F111 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -715,8 +707,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A1E77511F384BFD006C84D4 /* Debug */,
-				2ABEE6D01F387C5D00531205 /* Staging */,
 				2A1E77521F384BFD006C84D4 /* Release */,
+				2FEC98C024EE829200D5F111 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -725,8 +717,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A1E77541F384BFD006C84D4 /* Debug */,
-				2ABEE6D11F387C5D00531205 /* Staging */,
 				2A1E77551F384BFD006C84D4 /* Release */,
+				2FEC98C124EE829200D5F111 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
