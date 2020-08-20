@@ -10,5 +10,5 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 // https://www.appcoda.com/xcconfig-guide/
 
-APP_NAME = {{cookiecutter.app_name}} release
+APP_NAME = {{cookiecutter.app_name}}
 APP_ICON = AppIconRelease
